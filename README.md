@@ -1,6 +1,6 @@
 <h3>Write-up Chuyên Sâu: Khai Thác Lỗ Hổng Hệ Thống Tập Tin Trên Linux
 Giới Thiệu
-Trong bài viết này, chúng ta sẽ đi sâu vào phân tích một lỗ hổng bảo mật nghiêm trọng trong ứng dụng web sử dụng Flask trên nền tảng Linux. Lỗ hổng kết hợp giữa khả năng đọc file tùy ý (Path Traversal) và thực thi lệnh từ xa (RCE) thông qua việc lộ API key trong biến môi trường. Bài viết sẽ trình bày chi tiết từng bước khai thác, kèm theo phân tích kỹ thuật sâu và các biện pháp phòng chống hiệu quả.<h3>
+Trong bài viết này, chúng ta sẽ đi sâu vào phân tích một lỗ hổng bảo mật nghiêm trọng trong ứng dụng web sử dụng Flask trên nền tảng Linux. Lỗ hổng kết hợp giữa khả năng đọc file tùy ý (Path Traversal) và thực thi lệnh từ xa (RCE) thông qua việc lộ API key trong biến môi trường. Bài viết sẽ trình bày chi tiết từng bước khai thác, kèm theo phân tích kỹ thuật sâu và các biện pháp phòng chống hiệu quả.</h3>h3>
 
 Phân Tích Ứng Dụng
 1. Kiến Trúc Ứng Dụng
